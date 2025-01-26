@@ -9,3 +9,4 @@ tranjconver.in is utilized to transform the nc format into txc format
 01*.in-05*.in are input files for conventional molecular dynamics simulations
 md.in and gand-restart.in are files for GaMD simulations.
 comp.pdb is used for construction of Markov model.
+run-GaMD.sh is used to perform conventional MD simulation while run1.sh is applied to run GaMD simulations.
