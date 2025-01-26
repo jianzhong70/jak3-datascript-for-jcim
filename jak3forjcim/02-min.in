@@ -1,0 +1,19 @@
+minimization simulation without restrain
+&cntrl
+ imin=1,       ! Minimize the initial structure
+ maxcyc=10000, ! Maximum number of cycles for minimization
+ ncyc=5000,    ! Switch from steepest descent to conjugate gradient minimization after ncyc cycles
+ ntb=1,        ! Constant volume
+ ntp=0,        ! No pressure scaling
+ ntf=2,        ! Complete force evaluation
+ ntc=2,        ! No SHAKE
+ ntpr=1000,      ! Print to mdout every ntpr steps
+ ntwr=1000,    ! Write a restart file every ntwr steps
+ cut=9.0,     ! Nonbonded cutoff in Angstroms
+ ! Wrap coordinates when printing them to the same unit cell
+ iwrap=1,
+ ntwprt = 4581,
+ ! Set water atom/residue names for SETTLE recognition
+! watnam='TIP3', ! Water residues are named TIP3
+! owtnm='OH2',   ! Water oxygens are named OH2
+ /
